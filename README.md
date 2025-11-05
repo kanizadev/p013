@@ -23,61 +23,6 @@ A modern, beautiful Flutter news application with a calming sage green theme. St
 - **🔄 Pull to Refresh**: Refresh news by pulling down
 - **♾️ Infinite Scroll**: Automatically load more articles as you scroll
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK (3.9.2 or higher)
-- Dart SDK
-- Android Studio / VS Code with Flutter extensions
-- iOS Simulator (for iOS development) or Android Emulator
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/p013.git
-   cd p013
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-   ```bash
-   flutter run
-   ```
-
-## 📦 Dependencies
-
-- **http**: ^1.2.0 - For making HTTP requests to the news API
-- **cached_network_image**: ^3.3.1 - For efficient image loading and caching
-- **intl**: ^0.19.0 - For date formatting and internationalization
-- **url_launcher**: ^6.2.5 - For opening URLs in external browsers
-- **shared_preferences**: ^2.2.2 - For local storage of bookmarks and settings
-- **share_plus**: ^7.2.1 - For sharing articles
-
-## 🏗️ Project Structure
-
-```
-lib/
-├── main.dart                 # App entry point
-├── models/
-│   └── news_article.dart     # News article data model
-├── screens/
-│   ├── home_screen.dart       # Main navigation screen
-│   ├── news_list_screen.dart  # News list with categories
-│   ├── news_detail_screen.dart # Article detail view
-│   └── bookmarks_screen.dart  # Saved bookmarks
-├── services/
-│   ├── news_service.dart      # News API service
-│   ├── bookmark_service.dart   # Bookmark management
-│   └── theme_service.dart     # Theme preferences
-└── utils/
-    └── constants.dart         # App constants and color palette
-```
 
 ## 🎨 Color Scheme
 
@@ -135,52 +80,6 @@ Run tests with:
 flutter test
 ```
 
-## 📱 Building
-
-### Android
-```bash
-flutter build apk --release
-```
-
-### iOS
-```bash
-flutter build ios --release
-```
-
-### Web
-```bash
-flutter build web
-```
-
-## 🛠️ Development
-
-### Code Style
-
-This project follows Flutter's recommended linting rules. Run:
-```bash
-flutter analyze
-```
-
-### Formatting
-
-Format your code with:
-```bash
-flutter format .
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
