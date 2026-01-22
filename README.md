@@ -64,22 +64,9 @@ The app uses a beautiful sage green color palette:
 
 1. Toggle dark mode from the news list screen (if implemented)
 
-## 🔧 Configuration
+## 📸 Screenshots
 
-### API Key Setup
-
-To use the news API, you'll need to:
-
-1. Get an API key from [NewsAPI](https://newsapi.org/)
-2. Update the API key in `lib/services/news_service.dart`
-
-## 🧪 Testing
-
-Run tests with:
-```bash
-flutter test
-```
-
+<img src="https://raw.githubusercontent.com/kanizadev/p013/refs/heads/main/1.png" hight=446 width=243 /> <img src="https://raw.githubusercontent.com/kanizadev/p013/refs/heads/main/2.png" hight=446 width=243 />  
 
 ## 🙏 Acknowledgments
 
